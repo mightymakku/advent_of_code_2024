@@ -35,7 +35,7 @@ def read_reports(path: str) -> Sequence[Report]:
         return [Report([int(i) for i in line.split(' ')]) for line in lines]
 
 
-reports = read_reports('day02-2_input.txt')
+reports = read_reports('day02_2_input.txt')
 valid_count = len([r for r in reports if r.is_valid()])
 
 print(f'{valid_count=}')

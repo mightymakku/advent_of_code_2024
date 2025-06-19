@@ -5,7 +5,7 @@ def mul(x: int, y: int) -> int:
     return x * y
 
 
-with open(r'day03-2_input.txt') as f:
+with open(r'day03_2_input.txt') as f:
     input = f.read()
 
 matches = re.findall('mul\\([1-9][0-9]{0,2},[1-9][0-9]{0,2}\\)|don\'t\\(\\)|do\\(\\)', input)

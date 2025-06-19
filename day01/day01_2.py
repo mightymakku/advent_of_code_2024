@@ -1,7 +1,7 @@
 l1 = []
 l2 = []
 
-with open(r'day01-2_input.txt') as f:
+with open(r'day01_2_input.txt') as f:
     lines = f.readlines()
     for line in lines:
         x, y = line.split('   ')
